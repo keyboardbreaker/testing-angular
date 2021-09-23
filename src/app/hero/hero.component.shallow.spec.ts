@@ -7,7 +7,7 @@ describe('HeroComponent (shallow tests', () => {
     beforeEach(() => {
         TestBed.configureTestingModule({
             declarations: [HeroComponent],
-
+            schemas: [NO_ERRORS_SCHEMA]
         });
         fixture = TestBed.createComponent(HeroComponent);
     });
